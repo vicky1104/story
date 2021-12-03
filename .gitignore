@@ -1,0 +1,48 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/Form/form/node_modules
+/mongodb/node_modules
+/Form/form/.pnp
+.pnp.js
+
+# testing
+/coverage
+/Form/form/coverage
+
+# production
+/build
+/Form/form/build
+
+# misc
+/Form/form/.DS_Store
+/Form/form/.env.local
+/Form/form/.env.development.local
+/Form/form/.env.test.local
+/Form/form/.env.production.local
+/Form/form/package-lock.json
+
+/Form/form/npm-debug.log*
+/Form/form/yarn-debug.log*
+/Form/form/yarn-error.log*
+
+/mongodb/.DS_Store
+/mongodb/.env.local
+/mongodb/.env.development.local
+/mongodb/.env.test.local
+/mongodb/.env.production.local
+/mongodb/package-lock.json
+
+/mongodb/npm-debug.log*
+/mongodb/yarn-debug.log*
+/mongodb/yarn-error.log*
+
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
